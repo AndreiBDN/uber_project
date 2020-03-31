@@ -1,0 +1,36 @@
+.required
+    &-inner
+        margin-top: 38px
+    &-item
+        margin-bottom: 90px
+        &_title
+            color: #1ca8c3
+            font-size: 22px
+            margin-bottom: 22px
+        &_list
+            list-style: none
+            padding-left: 60px
+            li
+                position: relative
+                margin-bottom: 22px
+            li:before
+                content: ''
+                display: block
+                width: 21px
+                height: 21px
+
+                position: absolute
+                top: 2px
+                left: -31px
+                background: url(../icons/check-blue.svg) center (center / cover) no-repeat
+                
+        &_info
+            color: #1ca8c3
+            font-size: 17px
+            font-weight: 300
+        &--red
+            .required-item_title
+                color: $second-color
+            .required-item_list
+                li:before
+                    background: url(../icons/check-red.svg) center (center / cover) no-repeat

@@ -1,0 +1,128 @@
+@media (max-width: 1200px)
+    .main
+        &-title
+            font-size: 45px
+        &-subtitle
+            font-size: 30px
+    .app-item
+        width: 300px
+
+@media (max-width: 991px)
+    .nav-item
+        a
+            font-size: 13px
+    .header-phone
+        font-size: 20px
+    .btn--small
+        width: 100%
+    .main
+        &-bg
+            padding: 163px 15px 135px 15px
+        &-title
+            font-size: 40px
+        &-subtitle
+            font-size: 22px
+
+    .top
+        &-title
+            margin-top: 20px
+            font-size: 28px
+
+    .adv
+        &-item
+            flex-direction: column
+            padding-left: 0
+            &__info
+                padding-right: 0
+                span
+                    display: block
+                    text-align: center
+        &-icon
+            position: relative
+            left: 0
+            margin: 0 auto
+            margin-bottom: 18px
+            width: 30%
+    .app-item
+        width: 330px
+    .footer
+        flex-direction: column
+        &-nav
+            order: 1
+        &-dowload
+            order: 3
+            justify-content: center 
+            margin-top: 10px
+    .social-item
+        order: 2
+        display: flex
+        justify-content: center
+        margin-top: 10px
+
+@media (max-width: 767px)
+    .header
+        &-logo_text
+            display: none
+        &-sm_hidden
+            display: none  
+        &-phone--sm
+            display: block
+            text-align: center
+            margin-top: -10px
+    
+
+        &-inner
+            width: 50%
+            position: absolute
+            height: 100vh
+            flex-direction: column
+            background-color: rgba(0,0,0,.8)
+            left: -100%
+            transition: .4s
+            &__active
+                left: 0
+        &-nav
+
+            &__burger
+                display: block
+    .ability
+        &-content
+            img
+                width: 50%
+    .btn--small
+        width: 180px
+        height: 35px
+        margin: 0 auto
+        display: block
+    .main
+        &-bg
+            padding: 163px 12px 135px 12px
+        &-title
+            font-size: 30px
+        &-subtitle
+            font-size: 18px
+    .ability
+        min-height: 0
+        padding-bottom: 0
+        margin-bottom: 50px
+        &-black
+            min-height: 425px
+        &-content
+            .top-title
+                display: none
+            .top-text
+                display: none
+            img
+                margin: 15px auto 0
+            &_text
+                color: #ffffff
+                font-size: 24px
+    .required
+        .top
+            padding-bottom: 0
+        &-inner
+            margin-top: 0
+        &-item
+            margin-bottom: 30px
+    footer
+        padding-bottom: 25px

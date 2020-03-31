@@ -1,0 +1,65 @@
+.app 
+    min-height: 835px
+    padding-bottom: 80px
+    background: url(../img/bg/mobile-bg.jpg) center (center / cover) no-repeat
+.app-bg 
+    width: 320px
+    height: 280px
+    margin: 0 auto 20px
+.app-bg--1 
+    background: url(../img/mob_1.png) center center no-repeat
+.app-bg--2 
+    background: url(../img/mob_2.png) center center no-repeat
+.app-bg--3 
+    background: url(../img/mob_3.png) center center no-repeat
+.app-bg--4 
+    background: url(../img/mob_4.png) center center no-repeat
+.app-bg--5 
+    background: url(../img/mob_5.png) center center no-repeat
+.app-bg--6 
+    background: url(../img/mob_6.png) center center no-repeat
+.app-item 
+    position: relative
+    background-color: rgba(0, 0, 0, .8)
+    height: inherit
+.app-info 
+    position: absolute
+    top: 90px
+    width: 100%
+    text-align: center
+.app-info__text 
+    font-size: 24px
+    text-transform: uppercase
+    color: #fff
+.app-info__btn 
+    position: absolute
+    bottom: 33px
+    left: 50%
+    transform: translateX(-50%)
+    display: block
+    width: 30px
+    height: 30px
+    border-radius: 50%
+    background-color: #000
+ 
+    &:before 
+        position: absolute
+        content: ""
+        display: block
+        top: 14px
+        left: 50%
+        transform: translateX(-50%)
+        width: 18px
+        height: 2px
+        background-color: $main-color
+
+    &:after 
+        position: absolute
+        content: ""
+        display: block
+        top: 14px
+        left: 50%
+        transform: translateX(-50%)rotate(90deg)
+        width: 18px
+        height: 2px
+        background-color: $main-color

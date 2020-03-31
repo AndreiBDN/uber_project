@@ -1,0 +1,31 @@
+.map
+    min-height: 720px
+    background: url(../img/bg/map.png) center (center / cover) no-repeat
+    position: relative
+    &-show
+        position: absolute
+        left: 50%   
+        transform: translateX(-50%)
+        bottom: 50px
+        text-align: center
+        &_link
+            position: relative
+            color: $main-color
+            text-transform: uppercase
+            font-size: 15px
+            &:after
+                position: absolute
+                content: ''
+                display: block
+                height: 2px
+                left: 50%
+                transform: translateX(-50%)
+                width: 0%
+
+                background-color: $main-color
+                transition: .5s 
+            &:hover
+                text-decoration: none
+                color: $main-color
+            &:hover::after
+                width: 100%
